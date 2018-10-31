@@ -21,11 +21,10 @@ The correctness of a formula is under question so I'm still working on getting r
 
 Dispaly shows 5 levels of drunkness:
 
-- SOBR = you are sober
-- BEER = you had one to several beers
-- VODK = you had a vodka
-- DRNK = you are very drunk
-
+- `SOBR` - you are sober
+- `BEER` - you had one to several beers
+- `VODK` - you had a vodka
+- `DRNK` - you are very drunk
 
 Modules:
 
