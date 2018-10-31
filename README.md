@@ -27,3 +27,4 @@ See http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ3/ on how to calibrate the de
 [MQ3 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ3/master/res/MQ-3.pdf)
 
 
+### Temperature-humidity sensor
