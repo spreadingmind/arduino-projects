@@ -49,18 +49,13 @@ void loop() {
 // measurement
 
 int readAlcohol() {
-  int val = 0;  
-  int val1 = analogRead(ANALOG_PIN);
-  delay(10);
-  int val2 = analogRead(ANALOG_PIN);
-  delay(10);
-  int val3 = analogRead(ANALOG_PIN);
-  delay(10);
-  int val4 = analogRead(ANALOG_PIN);
-  delay(10);
-  int val5 = analogRead(ANALOG_PIN);  
-  val = (val1 + val2 + val3 + val4 + val5) / 5;
-  return val;
+  int val = 0;
+  for (int i=0; i <= 5; i++){
+      int current = analogRead(ANALOG_PIN);
+      val += current;
+      delay(10);
+  }
+  return val / 5;
 }
 
 
